@@ -1,0 +1,12 @@
+{"at":0,"kind":"limit","record":{"team":"A","period":"p1","cap":20,"start":0,"end":9}}
+{"at":0,"kind":"limit","record":{"team":"B","period":"p1","cap":20,"start":0,"end":9}}
+{"at":1,"kind":"owner","record":{"task":"project","team":"A","from":1}}
+{"at":2,"kind":"call","record":{"task":"project","id":"old","ceiling":10}}
+{"at":3,"kind":"usage","record":{"id":"old","receipt":"u1","portion":"round1","units":3,"finish":false}}
+{"at":4,"kind":"owner","record":{"task":"project","team":"B","from":4}}
+{"at":5,"kind":"call","record":{"task":"project","id":"fresh","ceiling":8}}
+{"at":6,"kind":"usage","record":{"id":"old","receipt":"u2","portion":"round1","units":3,"finish":false}}
+{"at":9,"kind":"close","record":{"period":"p1"}}
+{"at":10,"kind":"restart","record":{}}
+{"at":11,"kind":"usage","record":{"id":"old","receipt":"final","portion":"final","units":7,"finish":true,"covers":["u1"]}}
+{"at":12,"kind":"inspect","record":{"team":"A","period":"p1"}}

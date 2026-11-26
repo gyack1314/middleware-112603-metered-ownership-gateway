@@ -1,0 +1,10 @@
+{"at":0,"kind":"limit","record":{"team":"A","period":"p1","cap":9,"start":0,"end":8}}
+{"at":0,"kind":"limit","record":{"team":"A","period":"p2","cap":9,"start":8,"end":20}}
+{"at":1,"kind":"owner","record":{"task":"task","team":"A","from":1}}
+{"at":2,"kind":"call","record":{"task":"task","id":"id","ceiling":5}}
+{"at":3,"kind":"usage","record":{"id":"id","receipt":"initial","portion":"all","units":4,"finish":true,"covers":[]}}
+{"at":8,"kind":"close","record":{"period":"p1"}}
+{"at":9,"kind":"correct","record":{"id":"id","receipt":"initial","units":7,"adjustment":"fix","posting_period":"p2"}}
+{"at":10,"kind":"correct","record":{"id":"id","receipt":"initial","units":7,"adjustment":"fix","posting_period":"p2"}}
+{"at":11,"kind":"inspect","record":{"team":"A","period":"p1"}}
+{"at":12,"kind":"inspect","record":{"team":"A","period":"p2"}}
